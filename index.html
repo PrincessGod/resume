@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    <title>姬宏江</title>
+    <style>
+    body {
+        background: #fff;
+        font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+        line-height: 1.4;
+        margin: 0 0;
+        margin-bottom: 100px;
+    }
+
+    em {
+        color: #999;
+    }
+
+    p {
+        line-height: 1.6;
+        font-size: 90%;
+    }
+
+    a {
+        color: #2C85B1;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    section {
+        margin: 1em 0 2em;
+    }
+
+    blockquote {
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    #resume {
+        margin: 2em 2em 2em 2.5em;
+        max-width: 760px;
+    }
+    /* Resume heading */
+
+    .heading header {}
+
+    .heading header h1 {
+        font-size: 180%;
+        margin: 0.5em 0;
+        font-weight: 600;
+    }
+
+    .heading header h2 {
+        font-size: 140%;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .heading header .contact .detail {
+        margin: 0 1em 0 0;
+    }
+
+    .profile {
+        display: inline-block;
+        margin: 0 1em 0 0;
+    }
+
+    .profile strong,
+    .profile span {
+        display: inline-block;
+        margin: 0 1em 0 0;
+    }
+    /* section / line breaks */
+
+    section h2 {
+        font-size: 140%;
+        margin: 0 0 1em;
+        text-transform: uppercase;
+        color: #BC1B39;
+        font-weight: 400;
+    }
+    /* Experience items */
+
+    .item {
+        margin: 0 0 1em;
+        padding: 0 0 1em;
+        border-bottom: 1px solid #F2EBEC;
+    }
+
+    .item:last-child {
+        border-bottom: none;
+    }
+
+
+    .item header h3 {
+        margin: 0.2em 1em 0.2em 0;
+        display: inline-block;
+        font-weight: 600;
+    }
+
+    .item header a {
+        display: inline-block;
+    }
+
+    .item .position {
+        font-weight: 600;
+        font-size: 100%;
+        margin: 0.2em 1em 0.2em 0;
+    }
+
+    .item .startDate,
+    .item .endDate {
+        color: #6B6B6B;
+    }
+
+    .item .highlights {
+        list-style: square;
+        font-size: 90%;
+    }
+    /* skills */
+
+    #skills .item {
+        margin: 0.5em 0;
+        padding: 0 0 0.5em;
+        font-size: 90%;
+    }
+
+    #skills .item .name {
+        font-weight: 600;
+        display: inline-block;
+        text-transform: uppercase;
+        margin: 0 1em 0 0;
+        width: 23%;
+        vertical-align: top;
+    }
+
+    #skills .item .keywords {
+        display: inline-block;
+        width: 70%;
+        vertical-align: top;
+    }
+    /* education */
+
+    #education .item {
+        display: inline-block;
+        vertical-align: top;
+        width: 49.5%;
+        border-bottom: 0;
+    }
+    </style>
+    <style media="print">
+    body {
+        font-size: 12px;
+    }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="resume">
+        <section class="heading">
+            <header>
+                <h1>姬宏江</h1>
+                <div class="contact"> <span class="detail">
+                   <a href="mailto:jihongjiang@outlook.com">jihongjiang@outlook.com</a>
+               </span>
+                    <span class="detail">
+                   (+86) 13554054142
+               </span>
+                    <span class="detail">
+                   <a href="http://princessgod.com">http://princessgod.com</a>
+               </span>
+                </div>
+            </header>
+            <p>
+                <p>热爱编程，前端技术，同时也执迷于计算机图形艺术。喜欢绘画，平面设计，希望能够以程序员的角度将现代化前端技术和优秀艺术相结合，同时以用户的角度用更好的技术优化用户交互体验，在一个志同道合的团队中，共同做出引领行业的产品，能够帮助到别人的产品。</p>
+            </p>
+            <div class="profile"> <strong class="network">
+       GitHub
+   </strong>
+                <span class="username">
+       <a href="https://github.com/PrincessGod">PrincessGod</a>
+   </span>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>主要技能</h2>
+            <div class="item">
+                <header>
+                    <h3 class="name">Web前端</h3>
+                </header>
+                <div class="name">语言</div>
+                <div class="keywords">HTML, CSS, Javascript</div>
+                <div class="name">构建&框架</div>
+                <div class="keywords">React/Knockout, Redux, Flow, Gulp/WebPack, JSDoc</div>
+                <div class="name">核心</div>
+                <div class="keywords">WebGL(2D/3D)</div>
+                <div class="name">相关</div>
+                <ul class="highlights">
+                    <li><a href="https://cesiumjs.org/">Cesium</a>二次开发</li>
+                    <li><a href="https://cesiumjs.org/">WebGL Fundamentals</a>中文翻译</li>
+                </ul>
+            </div>
+            <div class="item">
+                <header>
+                    <h3 class="name">Windows前端</h3>
+                </header>
+                <div class="name">语言</div>
+                <div class="keywords">C#, Xaml</div>
+                <div class="name">构建&框架</div>
+                <div class="keywords">WPF, Prism, Entity Framework, Material Design In XAML, MahApps.Metro</div>
+                <div class="name">核心</div>
+                <div class="keywords">三维GIS平台</div>
+                <div class="name">相关</div>
+                <ul class="highlights">
+                    <li>高度自定义UI控件开发</li>
+                    <li>高度自定义交互实现</li>
+                    <li>项目架构&模块开发</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>工作经历</h2>
+            <div class="item">
+                <div class="dates">
+                    <span class="startDate">2015.9</span>
+                </div>
+                <p>
+                    <p>在读但全职参与GIS桌面应用开发，主要负责使用公司平台和WPF/WinForm开发项目展示和交互功能。</p>
+                </p>
+                <div class="dates">
+                    <span class="startDate">2016.6</span>
+                </div>
+                <p>
+                    <p>毕业于武汉大学遥感信息学院，正式入职并参与多个项目开发。</p>
+                </p>
+                <div class="dates">
+                    <span class="startDate">2016.8</span>
+                </div>
+                <p>
+                    <p>参加阿里和天池举办的数据可视化大赛，第一次接触到Web前端以及数据可视化，被圈粉，我知道我喜欢做这个。</p>
+                </p>
+                <div class="dates">
+                    <span class="startDate">2017.2</span>
+                </div>
+                <p>
+                    <p>重新思考及自我定位，寻求新的发展方向。可能是之前的比赛影响到了我，也可能是我还是没有放下绘画梦，我想做艺术与代码相结合的工作， 目前来看前端是最适合的（H5伴随商业，WebGL催生Web游戏）。我选择了和我有关的WebGL，因为之前接触的是DirectX。从此开始混源社区，学前端基础以及项目架构， 最主要的还是WebGL和图形学知识以及二维和三维实现，我需要在工作之余（凌晨 1 点前）花更多的时间和精力才能让我更快的做自己追求的方向。
+                    </p>
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>自我评价</h2>
+            <ul class="highlights">
+                <li>性格比较外向，工作中遇到可以改进或值得争议的地方时，我会及时和相关的同事沟通。</li>
+                <li>乐于分享知识，促成公司内部成立分享会，分享工作中的技术心得。</li>
+                <li>自我驱动能力，遇到问题知道怎么去解决，遇到想要完成的目标知道如何去学，并能自我引导。</li>
+                <li>崇尚"Free software"思想，热爱开源社区，做能够帮助他人的产品。</li>
+                <li>追求卓越，希望与群贤志士共同创造价值，在团队协作中实现自我价值。</li>
+            </ul>
+        </section>
+<!--         <section id="references">
+            <h2>References</h2>
+            <div class="item">
+                <blockquote class="reference">Reference...</blockquote>
+                <div class="name">— Jane Doe</div>
+            </div>
+        </section> -->
+    </div>
+</body>
+
+</html>
